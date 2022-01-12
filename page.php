@@ -2,16 +2,16 @@
 $page=htmlspecialchars(@$_GET['page']);
 switch ($page) {
     case null:
-        include 'page/beranda.php';
+        include 'page/absen.php';
         break;
-    case 'beranda':
-        include 'page/beranda.php';
+    case 'absen':
+        include 'page/absen.php';
         break;
-    case 'barang':
-        include 'page/barang.php';
+    case 'data':
+        include 'page/datapresensi.php';
         break;
-    case 'supplier':
-        include 'page/supplier.php';
+    case 'siswa':
+        include 'page/siswa.php';
         break;
     default:
         include 'page/404.php';
