@@ -1,6 +1,7 @@
 <?php
 
 require 'koneksi/conn.php';
+require 'fungsi.php';
 
 function query($query)
 {
