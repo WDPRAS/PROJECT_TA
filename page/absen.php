@@ -1,5 +1,8 @@
 <?php
-require 'functions.php';
+
+require 'query/functions.php';
+
+
 ?>
 
 <!doctype html>
@@ -15,43 +18,18 @@ require 'functions.php';
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php">
-            <img src="img/centang.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-            ABSENSI
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="absen.php">ABSEN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">DATA SISWA </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="datapresensi.php">DATA PRESENSI</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
     <center>
-        <div class="col-4">
+        <div class="card-body">
+        </div>
+        <div class="col-8 btn-block">
             <form action="">
-                <button type="submit" class="btn btn-success btn-lg btn-block">CEK IN</button>
+                <button type="submit" class="btn btn-success btn-lg btn-block ">CEK IN</button>
             </form>
             <form action="">
-                <button type="submit" class="btn btn-secondary btn-lg btn-block">CEK OUT</button>
+                <button type="submit" class="btn btn-secondary btn-lg btn-block ">CEK OUT</button>
             </form>
         </div>
     </center>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
 
 </body>
 
