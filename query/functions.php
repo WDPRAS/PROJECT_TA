@@ -1,6 +1,6 @@
 <?php
 
-require '../koneksi/conn.php';
+require 'koneksi/conn.php';
 
 function query($query)
 {
