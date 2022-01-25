@@ -17,21 +17,25 @@ require 'query/functions.php';
     <title>PRESENSI</title>
 </head>
 
-<center>
-    <div class="card-body">
-    </div>
-    <div class="col-8 btn-block">
-        <form action="" method="POST">
-            <input type="hidden" name="nohape" value="+6285748896489" />
-            <input type="hidden" name="isi" value="halo">
-            <button type="submit" name="kirim" class="btn btn-success btn-lg btn-block ">CEK IN</button>
-        </form>
-        <hr>
-        <form action="">
-            <button type="submit" class="btn btn-secondary btn-lg btn-block ">CEK OUT</button>
-        </form>
-    </div>
-</center>
+<body class="container">
+
+
+    <main class="row">
+        <div class="col-md-9 col-sm-6 col-xs-12">
+            <div class="btn-block">
+                <form action="" method="POST">
+                    <input type="hidden" name="nohape" value="+6285748896489" />
+                    <input type="hidden" name="isi" value="halo">
+                    <button type="submit" name="kirim" class="btn btn-success btn-lg btn-block">CEK IN</button>
+                </form>
+                <hr>
+                <form action="">
+                    <button type="submit" class="btn btn-secondary btn-lg btn-block ">CEK OUT</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
 
 </body>
 
